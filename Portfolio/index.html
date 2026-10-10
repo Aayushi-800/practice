@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal portfolio website" />
+  <title>AAYUSHI | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="logo" href="#home" aria-label="Portfolio home">A<span>.</span></a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a class="nav-link active" href="#home">Home</a></li>
+        <li><a class="nav-link" href="#about">About</a></li>
+        <li><a class="nav-link" href="#education">Education</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+      <a class="nav-cta" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> AVAILABLE FOR OPPORTUNITIES</p>
+          <h1>Hi, I'm <span class="gradient-text">AAYUSHI.</span><br>Building for the web.</h1>
+          <p class="hero-description">I'm a full-stack developer who enjoys turning ideas into useful, accessible, and engaging digital experiences.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#contact">Contact me <span aria-hidden="true">↗</span></a>
+            <a class="button button-secondary" href="#about">Explore portfolio <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-meta">
+            <div><strong>01</strong><span>Curious mind</span></div>
+            <div><strong>02</strong><span>Clean code</span></div>
+            <div><strong>03</strong><span>Always learning</span></div>
+          </div>
+        </div>
+        <div class="hero-visual" aria-label="Decorative developer illustration">
+          <div class="orb orb-one"></div><div class="orb orb-two"></div>
+          <div class="code-card">
+            <div class="code-top"><span></span><span></span><span></span><small>developer.js</small></div>
+            <div class="code-content">
+              <p><span class="code-purple">const</span> developer = {</p>
+              <p class="indent"><span class="code-blue">name</span>: <span class="code-green">'AAYUSHI'</span>,</p>
+              <p class="indent"><span class="code-blue">focus</span>: <span class="code-green">'Full-stack'</span>,</p>
+              <p class="indent"><span class="code-blue">curious</span>: <span class="code-orange">true</span>,</p>
+              <p class="indent"><span class="code-blue">build</span>: () <span class="code-purple">=&gt;</span> <span class="code-green">'great things'</span></p>
+              <p>};</p>
+              <p class="code-comment">// turning ideas into reality ✦</p>
+            </div>
+          </div>
+          <div class="floating-chip chip-top">✦ Creative thinking</div>
+          <div class="floating-chip chip-bottom"><span class="chip-icon">⌘</span> HTML · CSS · JavaScript</div>
+          <div class="visual-caption">DESIGN <span>×</span> DEVELOPMENT</div>
+        </div>
+      </div>
+      <a href="#about" class="scroll-cue"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">01 / ABOUT ME</p>
+          <h2>A little about <span class="gradient-text">myself.</span></h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-intro">
+            <div class="about-mark">A<span>.</span></div>
+            <h3>Developer by craft.<br><span class="muted">Problem-solver by nature.</span></h3>
+          </div>
+          <div class="about-body">
+            <p>I'm a passionate developer from India who likes building clean, responsive websites and learning how things work behind the scenes. I enjoy working across the frontend and backend, from shaping a user interface to connecting it with data and APIs.</p>
+            <p>My goal is to keep improving my skills, collaborate with good people, and create digital products that are useful and easy to use.</p>
+            <div class="skill-list" aria-label="Skills">
+              <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>React</span><span>Node.js</span><span>Express</span><span>MongoDB</span><span>Git & GitHub</span>
+            </div>
+          </div>
+        </div>
+        <div class="values-grid">
+          <article class="value-card"><span class="value-number">01</span><div class="value-icon">✳</div><h3>Keep it simple</h3><p>Thoughtful interfaces and maintainable code over unnecessary complexity.</p></article>
+          <article class="value-card"><span class="value-number">02</span><div class="value-icon">⌘</div><h3>Learn by building</h3><p>Hands-on projects help me explore ideas and grow practical skills.</p></article>
+          <article class="value-card"><span class="value-number">03</span><div class="value-icon">↗</div><h3>Make an impact</h3><p>Build experiences that solve real problems and respect the user's time.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow"> EDUCATION</p>
+          <h2>Learning is a <span class="gradient-text">journey.</span></h2>
+          <p class="section-subtitle">My academic background and the knowledge I'm building along the way.</p>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-date">CURRENT / 2027</div>
+            <div class="timeline-card">
+              <div class="timeline-top"><div><h3>Btech / CSE</h3><p class="institution">AKTU</p></div><span class="timeline-tag">In progress</span></div>
+              <p>Compurter Science And Engineering, Full-Stack Developer, Learning Building Growing.</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-date">2021 – 2023</div>
+            <div class="timeline-card">
+              <div class="timeline-top"><div><h3>Senior Secondary Education</h3><p class="institution">Shri Ram Public School,Khatauli</p></div><span class="timeline-tag">Completed</span></div>
+              
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-date">2021</div>
+            <div class="timeline-card">
+              <div class="timeline-top"><div><h3>Secondary Education</h3><p class="institution">Spring Dales Public School,Mansurpur</p></div><span class="timeline-tag">Completed</span></div>
+  
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-copy">
+          <p class="eyebrow"> CONTACT</p>
+          <h2>Have an idea?<br><span class="gradient-text">Let's connect.</span></h2>
+          <p>Have a project in mind, an opportunity to share, or just want to say hello? Send me a message.</p>
+          <a class="contact-email" href="mailto:aayushirajput80064@gmail.com">Gmail <span>↗</span></a>
+          <div class="social-links">
+            <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          </div>
+        </div>
+        <form class="contact-form" id="contact-form">
+          <label for="name">Your name</label>
+          <input id="name" name="name" type="text" placeholder="Jane Smith" autocomplete="name" required>
+          <label for="email">Email address</label>
+          <input id="email" name="email" type="email" placeholder="jane@example.com" autocomplete="email" required>
+          <label for="message">Your message</label>
+          <textarea id="message" name="message" rows="4" placeholder="Tell me a little about your idea..." required></textarea>
+          <button class="button button-primary form-submit" type="submit">Prepare email <span aria-hidden="true">↗</span></button>
+          
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="logo" href="#home">Aayushi<span>.</span></a>
+      <p>Designed with curiosity. Built with care.</p>
+      <p>© <span id="year"></span> shant</p>
+    </div>
+  </footer>
+</body>
+</html>
